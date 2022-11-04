@@ -35,5 +35,6 @@ class NoteAdapter:RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {
     fun setlist(list:List<NoteModel>){
         listNote = list
         notifyDataSetChanged()
+        var x:Int = 5
     }
 }
